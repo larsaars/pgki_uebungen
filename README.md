@@ -1,2 +1,2 @@
-# pgki_uebungen
+# PGKI Übungen
 Übungen aus KI Programmieren

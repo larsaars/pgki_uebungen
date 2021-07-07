@@ -21,7 +21,7 @@ def caesar(msg: str, k: int = 3) -> Union[str, None]:
         else:
             out += c
 
-    return None
+    return out
 
 
 if __name__ == '__main__':

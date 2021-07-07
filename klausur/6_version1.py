@@ -1,8 +1,11 @@
-def caesar(msg: str, k: int = 3) -> str:
+from typing import Union
+
+
+def caesar(msg: str, k: int = 3) -> Union[str, None]:
     out = ''
 
-    if k >= 26:
-        return ''
+    if abs(k) >= 26:
+        return None
 
     A, Z, a, z = ord('A'), ord('Z'), ord('a'), ord('z')
 
